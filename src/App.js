@@ -23,7 +23,7 @@ function App() {
   const inputChange = ( e ) =>{
     try{
     setExpresssion(e.target.value);}
-    catch(e){}
+    catch(ex){}
   }
   const onSubmit = ( e ) => {
     e.preventDefault();
