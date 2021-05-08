@@ -21,7 +21,9 @@ function App() {
     }
   }
   const inputChange = ( e ) =>{
-    setExpresssion(e.target.value);
+    try{
+    setExpresssion(e.target.value);}
+    catch(e){}
   }
   const onSubmit = ( e ) => {
     e.preventDefault();
